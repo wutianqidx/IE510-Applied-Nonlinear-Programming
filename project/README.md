@@ -1,0 +1,8 @@
+# Overview of the project
+
+In this project, we aim to study a dataset from Kaggle competition and better understand the behavior of several optimization algorithms given different step-size and variants. Dealing with real world problems is pretty challenging since the dataset from Kaggle competition is taken from real world including number of samples with various features. Also, the efficiency is important for practical problems. Hence, the algorithms applied in machine learning are the key factor in success.
+
+This project implements and compares different algorithms to have a comprehensive perspective about the algorithms we learned from lecture and check whether a new algorithm leads to a better convergence rate compared to conventional machine learning packages such as support vector machine. The project finds the most suitable algorithm to provide predictions by applying several methods learned from the class, namely, gradient descent method, gradient descent with momentum(including heavy ball method and Nesterov’s method), decomposition-type methods(stochastic gradient descent), quasi- Newton algorithm(BFGS method) and BB (Barzilai-Borwein) Method (including LBB method and SBB method). In addition, our project not only contains analysis of real world dataset, but also includes comparison with artificial data simulated by gaussian distribution.
+
+After comparing the algorithms regarding complexity, convergence speed and computation time, we find that for medical prediction problems with logistic regression model, Barzilai-Borwein method is the fastest and heavy ball method with parameter beta = 0.9 is the second best.
+
